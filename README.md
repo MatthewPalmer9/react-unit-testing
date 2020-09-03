@@ -8,7 +8,7 @@ If you run into any errors, please be sure you have installed the necessary depe
 this repo by typing `bundle install` in your IDE terminal. 
 
 ## Unit Testing Dependencies Used
-* `from '@testing-library/react'`
+* `'@testing-library/react'`
     * `{ render, cleanup }`
 * `'@testing-library/jest-dom/extend-expect'`
 * `renderer from 'react-test-renderer'`
