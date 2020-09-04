@@ -2,6 +2,7 @@
 
 exports[`matches snapshot 1`] = `
 <div
+  className="button-style"
   data-testid="button"
 >
   save

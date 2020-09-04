@@ -15,7 +15,7 @@ it('renders without crashing',  () => {
 
 //uses @testing0library/jest-dom/extend-expect
 it('renders button correctly', () => {
-    const {getByTestId} = render(<Button label="click me please"></Button>)
+    const { getByTestId } = render(<Button label="click me please"></Button>)
     expect(getByTestId('button')).toHaveTextContent("click me please")
 })
 
